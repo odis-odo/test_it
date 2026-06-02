@@ -32,7 +32,7 @@ $name = '[email protected]'
 
 Replace `$name` variable with the user's domain and username.
 
- &nbsp
+<br>  
 
 2. Using the `Get-ADUser` cmdlet if you have the Active Directory module installed:
 
@@ -42,7 +42,7 @@ Get-ADUser -Identity '[email protected]' | Select-Object -ExpandProperty SID
 
 Replace the `-Identity`  parameter with the user's domain and username.
 
- &nbsp
+<br> 
 
 3.  Using the `Get-LocalUser` cmdlet to get the SID of a local user:
 
@@ -52,7 +52,7 @@ Get-LocalUser -Name 'username' | Select-Object -ExpandProperty SID
 
 Replace 'username' with the name of the local user. 
 
-&nbsp
+<br>
 
 4. Using the `whoami` command with the /user option:
 
