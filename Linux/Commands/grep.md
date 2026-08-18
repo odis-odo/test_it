@@ -12,7 +12,8 @@ Usng grep to find a particular  word of pattern:
 ~~~
 
 <br>
-using the -v option will exclude every line that containss the term:
+
+Using the `-v` option will exclude every line that contains the term:
 
 ~~~
 cat /etc/ssh/ssh_config | grep -v Port
@@ -28,7 +29,9 @@ grep Port  /etc/ssh/ssh_config
 
 
  <br>
- the -n option will show the line number of the search term:  
+
+
+ The `-n` option will show the line number of the search term:  
 
 ~~~
 grep -n Port  /etc/ssh/ssh_config 
@@ -36,7 +39,8 @@ grep -n Port  /etc/ssh/ssh_config
 
 
 <br>
-the -c option will show the number of times the search term shows up in the file:
+
+The  `-c` option will show the number of times the search term shows up in the file:
 
 ~~~
 grep -c Port  /etc/ssh/ssh_config 
@@ -45,14 +49,15 @@ grep -c Port  /etc/ssh/ssh_config
 
 
 <br>
-  the -i option will make the earch case insensitive:
+
+The  `-i`  option will make the search case insensitive:
 
 ~~~
 grep -i port  /etc/ssh/ssh_config 
 ~~~
  
 <br>
-  to look though all the files in a durectory use the * :
+ To look though all the files in a directory use the * :
 
 ~~~
 grep gedit *
@@ -60,11 +65,30 @@ grep gedit *
 
 
 <br>
-  the -r option will look though all files and directories:
+
+The  `-r` option will look though all files and directories:
 
 ~~~
 grep -r gedit git/personal/anisible/roles/
-~~~ 
+~~~   
+
+<br>  
+
+The  `-e` option allows specifying more the one matching pattern, to specifiy each seperate pattern:  
+
+```
+grep -e print -e check   print.py
+```  
+
+<br>  
+
+A simple example of using a regular expression in grep search:  
+
+```
+grep [tn] print.py
+```  
+
+The square brackets indicate the regular expression grep should look for matches that contain either a *t* or *n* character. Without it grep would just search for text that would match the string tn.
 
 
 
