@@ -1,4 +1,4 @@
-# winsat
+## winsat
 
 Using winsat to test read and write speed of drives:  
 
@@ -9,7 +9,7 @@ winsat disk -drive  (drive letter)
 Make sure to run it as admisitrator as well.  
 
 
-# manage-bde
+## manage-bde
 
 Using manage-bde to check the status of drive encryption:  
 
