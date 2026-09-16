@@ -34,4 +34,17 @@ certutil -decode -f encoded_file encoded_file_overwrite
 <br>
 
 References  
-[Windows base64 Encoding and Decoding Using certutil](https://dmfrsecurity.com/2017/01/07/windows-base64-encoding-and-decoding-using-certutil/)
+[Windows base64 Encoding and Decoding Using certutil](https://dmfrsecurity.com/2017/01/07/windows-base64-encoding-and-decoding-using-certutil/)  
+
+<br> 
+
+# Checking File hashes  
+
+Checking a file hash with `certutil` is as follows:  
+
+```
+certutil -hashfile testing.txt sha256
+```  
+
+- The `--hashfile` option will  display a cryptographic hash over a file
+- `sha256`  is the specific hash algorithm  to display
