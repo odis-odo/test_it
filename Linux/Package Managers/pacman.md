@@ -1,4 +1,4 @@
-`
+
 
 # PACMAN - Arch Linux package manager utility
 
@@ -67,7 +67,7 @@ sudo pacman -Scc
 <br> 
 
 
-<u>Links  
+<u>Links</u>  
 
 [pacman-tldr](https://tldr.inbrowser.app/pages/linux/pacman)  
 [manned-pacman](https://manned.org/pacman.8)  

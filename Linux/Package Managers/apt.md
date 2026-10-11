@@ -67,7 +67,7 @@ apt list [-i|--installed]
 
 <br> 
 
-<u>Links  
+<u>Links</u>  
 
 [apt-tldr](https://tldr.inbrowser.app/pages/linux/apt)	  
 [maned-apt](https://manned.org/apt.8)  

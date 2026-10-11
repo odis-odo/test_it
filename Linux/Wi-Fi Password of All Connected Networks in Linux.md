@@ -26,6 +26,12 @@ This directory contains all the profiles of Wi-fi networks that the deivice has 
 
  ```bash
  sudo rm /etc/NetworkManager/system-connections/NETWORK_NAME 
- ```
+ ```  
+
+<br>
+
+<u>Links</u>  
+
+[Wi-Fi Password of All Connected Networks in Windows/Linux](https://www.geeksforgeeks.org/computer-networks/wi-fi-password-connected-networks-windowslinux/) 
 
 

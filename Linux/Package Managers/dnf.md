@@ -67,7 +67,7 @@ sudo dnf clean all|dbcache|expire-cache|metadata|packages
 ```  
 <br> 
 
-<u>Links  
+<u>Links</u>  
 
 [dnf-tldr](https://tldr.inbrowser.app/pages/linux/dnf)  
 [dnf5-readthedocs](https://dnf5.readthedocs.io/en/latest/commands/index.html)  

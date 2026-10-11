@@ -25,6 +25,12 @@ It will show all the Wi-Fi profiles the computer has connected to.
 
 ```cmd 
 netsh wlan delete profile name="ProfileName"
-```
+```  
+
+<br>
+
+<u>Links</u>  
+
+[Wi-Fi Password of All Connected Networks in Windows/Linux](https://www.geeksforgeeks.org/computer-networks/wi-fi-password-connected-networks-windowslinux/) 
 
 

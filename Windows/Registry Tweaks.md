@@ -11,7 +11,7 @@ Create new key called `Personalization`
 
 Create a new DWORD (32-bit) Value called  `NoLockScreen`  
 
-<<<<<<< HEAD
+
 Double click it and set the value to 1   
 
 
@@ -44,10 +44,7 @@ Add Dword32 `DisableSearchBoxSuggestions`
 Set Value to 1
 
 
-
-
-=======
 Double click it and set the value to 1
->>>>>>> dd574b9baef2e9804fbf60218ef1cba61218c4c9
+
 
 
